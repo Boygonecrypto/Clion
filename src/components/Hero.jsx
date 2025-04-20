@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="layout w-full flex items-center gap-[10px] lg:items-end mt-[130px] md:mt-[180px]">
+    <div className="layout w-full flex items-center gap-[10px] lg:items-end mt-[90px] md:mt-[180px]">
       <div className="max-w-[673px]">
         <h1 className="text-white text-[35px] md:text-[50px] lg:text-[67px] font-[500] leading-[1.2] font-[satoshi] mb-[20px]">
           The Institute For Financial Liberation
@@ -11,7 +11,7 @@ const Hero = () => {
           Empower yourself with expert insights, practical strategies, and the
           tools to take control of your financial future.
         </p>
-        <button className="bg-[#FFFF] text-[16px] text-[#0c0c0c] p-2.5 mt-[15px] ">
+        <button className="bg-[#FFFF] text-[16px] text-[#0c0c0c] p-2.5 mt-[60px] md:mt-[20px] ">
           Get Started
         </button>
       </div>
